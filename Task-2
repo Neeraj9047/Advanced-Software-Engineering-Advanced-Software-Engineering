@@ -1,0 +1,69 @@
+Engineering Tickets for Augur Project
+
+Epic: Develop Augur Predictive Supply Chain Management System
+
+User Story 1: Frontend Dashboard Setup
+
+As a user, I want to access a browser-based dashboard to monitor distributor metrics.
+Tasks:
+Set up the frontend project using React framework.
+Create dashboard layout with placeholders for distributor metrics.
+Integrate API calls to retrieve distributor data.
+Implement responsive design for various screen sizes.
+User Story 2: Display Distributor Metrics
+
+As a user, I want to view key metrics for each distributor on the dashboard.
+Tasks:
+Design components to display distributor name, YTD average, last month's quantity, and forecast.
+Fetch and populate distributor metrics from API responses.
+Implement data visualization for better user understanding.
+Include sorting and filtering options for distributors.
+User Story 3: Backend Integration
+
+As a system, I need to integrate with the existing predictive shipping pipeline.
+Tasks:
+Create microservices for backend components (data processing, APIs).
+Establish connections with messaging queues for data exchange.
+Develop API endpoints to fetch distributor metrics.
+Implement data transformation logic for incoming data.
+User Story 4: Data Processing and Storage
+
+As a system, I need to process and store distributor data for metrics calculation.
+Tasks:
+Design data models for storing monthly shipment quantities and forecasts.
+Develop data processing components to aggregate and calculate metrics.
+Implement logic to compute YTD average, last month's quantity, and forecast.
+Integrate with the chosen database (e.g., Azure SQL Database).
+User Story 5: Messaging Queue Setup
+
+As a developer, I need to establish communication using messaging queues.
+Tasks:
+Choose messaging technology (e.g., Azure Service Bus) for real-time data exchange.
+Set up messaging infrastructure on Azure.
+Implement message producers for sending monthly shipment and forecast data.
+Create message consumers for processing incoming data.
+User Story 6: Azure Deployment
+
+As a developer, I need to deploy the Augur system on Azure.
+Tasks:
+Configure Azure Kubernetes Service (AKS) for container orchestration.
+Containerize frontend and backend components.
+Define deployment pipelines using Azure DevOps or similar tools.
+Set up monitoring and logging using Azure services.
+User Story 7: Extendibility
+
+As a developer, I want to ensure the system's extendibility for future features.
+Tasks:
+Design APIs with flexibility for adding new endpoints.
+Implement modular architecture for microservices.
+Document best practices for adding new functionality.
+Plan for potential integration with advanced analytics tools.
+User Story 8: Sprint Planning and Kickoff
+
+As a team lead, I need to plan and initiate the first sprint for Augur.
+Tasks:
+Review and prioritize engineering tickets.
+Estimate effort and assign tickets to team members.
+Set up a Trello board to track progress and manage tasks.
+Conduct a sprint kickoff meeting to align the team.
+By organizing these engineering tickets on a Trello board, the Augur project's first sprint can be initiated, and the development process can begin with a clear roadmap and defined tasks.
